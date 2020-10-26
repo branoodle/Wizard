@@ -12,4 +12,4 @@ python3 wizard.py [-h] -f <file> -m <jpg,gif,png> -o <output file>
   -m --magic              désignier le format du fichier de sortie 
   -o --output             désignier le nom du ficihier de sortie 
 ```
-![](exemple.jpg)
+![](exemple.png)
