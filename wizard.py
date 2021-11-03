@@ -2,7 +2,7 @@ import argparse
 import sys
 parser = argparse.ArgumentParser()
 parser.add_argument("-f","--file", help="fichier auxquelle on doit modifier le magic header", required=True)
-parser.add_argument("-m", "--magic", help="magic header à choisir (jpg,png,gif)", required=True)
+parser.add_argument("-m", "--magic", help="magic number à choisir (jpg,png,gif)", required=True)
 parser.add_argument("-o", "--output", help="output file", required=True)
 args = parser.parse_args()
 
